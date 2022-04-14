@@ -1,0 +1,11 @@
+.elements__header {
+    text-decoration: none;
+    margin: 0;
+    Font-size: 24px;
+    Line-height: 29px;
+    font-weight: 900;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 190px;
+}
