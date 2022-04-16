@@ -9,7 +9,7 @@
 
 @media(max-width:930px) {
     .profile__name {
-        Font-size: 27px;
-        Line-height: 33px;
+        font-size: 27px;
+        line-height: 33px;
     }
 }

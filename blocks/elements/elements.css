@@ -1,22 +1,17 @@
- @import url(./__element/elements__element.css);
- @import url(./__header/elements__header.css);
- @import url(./_picture/elements__picture.css);
- @import url(./_button/elements__heart.css);
- @import url(./__container/elements__container.css);
- .elements {
-     max-width: 880px;
-     width: 100%;
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     gap: 20px 18px;
-     margin: auto;
-     padding-top: 47px;
- }
- 
- @media(max-width:930px) {
-     .elements {
-         grid-template-columns: repeat(auto-fit, 282px);
-         justify-content: center;
-         padding-top: 0;
-     }
- }
+.elements {
+    max-width: 880px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 18px;
+    margin: auto;
+    padding-top: 47px;
+}
+
+@media(max-width:930px) {
+    .elements {
+        grid-template-columns: repeat(auto-fit, 282px);
+        justify-content: center;
+        padding-top: 0;
+    }
+}
