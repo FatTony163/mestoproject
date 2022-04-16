@@ -1,6 +1,6 @@
 .profile__position {
-    Font-size: 18px;
-    Line-height: 22px;
+    font-size: 18px;
+    line-height: 22px;
     color: #fff;
     font-weight: 400;
     text-decoration: none;
@@ -9,7 +9,7 @@
 
 @media(max-width:930px) {
     .profile__position {
-        Font-size: 14px;
-        Line-height: 17px;
+        font-size: 14px;
+        line-height: 17px;
     }
 }
