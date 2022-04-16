@@ -6,6 +6,7 @@
     align-items: baseline;
     margin: auto 0;
     padding-left: 30px;
+    border: none;
 }
 
 @media(max-width:930px) {

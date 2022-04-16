@@ -5,3 +5,11 @@
     font-weight: 900;
     padding-bottom: 54px;
 }
+
+@media(max-width:581px) {
+    .popup__header {
+        Font-size: 18px;
+        Line-height: 22px;
+        padding-bottom: 75px;
+    }
+}

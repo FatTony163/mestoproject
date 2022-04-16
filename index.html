@@ -17,7 +17,7 @@
         <section class="profile">
             <img class="profile__avatar" src="./images/avatar.jpg" alt="Аватар">
             <div class="profile__info">
-                <h1 class="profile__name">Жак-Ив Кусто</h1>
+                <h2 class="profile__name">Жак-Ив Кусто</h2>
                 <button type="button" class="profile__edit-button"></button>
                 <p class="profile__position">Исследователь океана</p>
             </div>
@@ -73,18 +73,21 @@
     </footer>
 
     <div class="popup">
-        <div class="popup__container">
-            <button class=popup__close-button><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M32 28.8L19.2 16L32 3.2L28.8 0L16 12.8L3.2 0L0 3.2L12.8 16L0 28.8L3.2 32L16 19.2L28.8 32L32 28.8Z" fill="white"/>
-                </svg></button>
+        <form class="popup__container">
+            <button class=popup__close-button></button>
             <h3 class="popup__header">Редактировать профиль</h3>
-            <div class="popup__form">
-                <p class="popup__form-name">Жак-Ив Кусто</p>
-                <p class="popup__form-job">Исследователь океана</p>
-                <button type="button" class="popup__save-button">Сохранить</button>
-            </div>
-        </div>
+            <fieldset class="popup__form">
+                <label class="popup__form-name"><input class="popup__input popup__input-name" placeholder="Имя"  name="name" type="text" />
+                </label>
+                <fieldset class="popup__form"></fieldset>
+                <label class="popup__form-job"><input class="popup__input popup__input-job" placeholder="О себе"  name="job" type="text" />
+                </label>
+            </fieldset>
+            <button type='submit' class="popup__save-button">Сохранить</button>
+        </form>
     </div>
+    <script src="./javascript/script.js"></script>
+    <script src="./javascript/form.js"></script>
 </body>
 
 </html>
