@@ -1,5 +1,6 @@
 .popup__form {
     border: none;
     padding: 0;
-    margin: 0 0 30px;
+    margin: 0 0 35px;
+    padding-bottom: 35px;
 }

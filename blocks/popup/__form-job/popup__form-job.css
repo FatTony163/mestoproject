@@ -1,9 +1,9 @@
 .popup__form-job {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding-bottom: 13px;
     font-weight: 400;
-    line-height: 17px;
     font-size: 14px;
-    margin: 0;
+    line-height: 17px;
+    margin: 0 0 17px 0;
     text-decoration: none;
+    border: none;
 }

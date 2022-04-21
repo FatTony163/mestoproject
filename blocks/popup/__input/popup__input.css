@@ -6,6 +6,10 @@
     padding-bottom: 13px;
     transition: all 0.2 linear;
     background-color: transparent;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 358px;
 }
 
 .popup__input:focus {

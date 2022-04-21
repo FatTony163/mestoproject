@@ -4,12 +4,12 @@ const popupCloseButton = popup.querySelector('.popup__close-button');
 
 let profileName = document.querySelector('.profile__name')
 let profileJob = document.querySelector('.profile__position')
-let formElement = document.querySelector('.popup__container');
-let nameInput = document.querySelector('.popup__input-name');
-let jobInput = document.querySelector('.popup__input-job');
+let formElement = document.querySelector('.popup__form');
+let nameInput = formElement.querySelector('#name');
+let jobInput = formElement.querySelector('#job');
 
 function popupOpenToggle(evt) {
-    console.log("evt", evt);
+
     popup.classList.toggle('popup_visible')
 }
 
