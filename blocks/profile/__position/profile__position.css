@@ -5,11 +5,16 @@
     font-weight: 400;
     text-decoration: none;
     margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 350px;
 }
 
 @media(max-width:930px) {
     .profile__position {
         font-size: 14px;
         line-height: 17px;
+        max-width: 200px;
     }
 }
